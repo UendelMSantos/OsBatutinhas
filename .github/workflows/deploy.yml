@@ -15,7 +15,7 @@ jobs:
         uses: appleboy/ssh-action@v1.0.0
         with:
           host: ${{ secrets.VPSHOST }}
-          username: root
+          username: uendel
           key: ${{ secrets.SSKEY }}
           script: |
             cd /apps/landing
